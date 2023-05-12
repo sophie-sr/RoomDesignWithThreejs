@@ -8,7 +8,10 @@ import { Experience } from './components/Experience'
 function App() {
 
   return (
-    <Canvas>
+    <Canvas camera ={{
+      fov: 25, 
+      position: [6, 9, 7],
+    }}>
       <Experience />
     </Canvas>
   )
